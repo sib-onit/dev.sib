@@ -1,0 +1,149 @@
+<header class="header"> 
+
+   <div class="container" id="banner" >
+      <div class="row"> 
+
+
+ <%= image_tag "imark_blue.jpg", id: 'imark' %> 
+  <%= image_tag "cells.png", id: 'cells' %> 
+  
+  <div id="school_of">School of</div>
+  <div id="integrative">Integrative</div>
+  <div id="biology">Biology</div>
+
+	</div>
+    </div>
+
+<!--<div class="navbar supermenu navbar-inverse navbar-fixed-top">-->
+
+<div class="navbar supermenu navbar-static-top" role ="navigation" id="topnavbar" >
+   
+<!--KA: Use container-fluid if you want a full page width menu
+   <div class="container-fluid"> -->
+   <div class="container">
+
+      <div id ="logo_div" class="navbar-header" >
+         <button id ="logo_btn" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle" >
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+       <a href="/ashwini" class="navbar-brand"> School of Integrative Biology</a>
+      </div>
+
+     
+    <!-- Menu Item-1 -->
+     <div id="navbar-collapse-1" class="navbar-collapse collapse">
+	<ul class="nav navbar-nav">
+	   <li class="dropdown supermenu" id = "navitem1"><a href="#" data-toggle="dropdown" class="dropdown-toggle"  >About</a>
+	     <ul class="dropdown-menu">
+	       <li>
+	          <div class="supermenu-content">
+		    <div class="row">
+			<ul class="col-sm-2 list-unstyled">
+			  <li><p><strong>--Title??-- </strong></p></li>
+			  <li><a  href="#"> News & Events </a></li><br>
+			  <li><a   href="#"> Contact Us </a></li><br>
+			  <li><a  href="#"> IB Blog </a></li><br>
+			</ul>
+
+			<ul class="col-sm-2 list-unstyled">
+			  <li class="column-width"><p><strong>People</strong></p></li>
+			  <li class="column-width" ><a  href="#"> Faculty </a></li><br>
+			  <li class="column-width" ><a  href="#"> Staff </a></li><br>
+			  <li class="column-width" ><a  href="#"> Academics </a></li><br>
+			  <li class="column-width" ><a  href="#"> Graduate Students </a></li><br>
+			</ul>
+
+			<ul class="col-sm-2 list-unstyled">
+			  <li><p><strong>Departments</strong></p></li>
+			  <li><a  href="#"> Animal Biology </a></li><br>
+			  <li><a  href="#"> Entomology </a></li><br>
+			  <li><a  href="#"> Plant Biology </a></li><br>
+			</ul>
+
+			<ul class="col-sm-2 list-unstyled">
+			  <li class="column-width"><p><strong>Programs</strong></p></li>
+			  <li class="column-width" ><a  href="#"> Program in Ecology,Evolution & Conservation Biology (PEEC) </a></li><br>
+			  <li   class="column-width" ><a  href="#"> Neuroscience Program (NSC) </a></li><br>
+			  <li   class="column-width" ><a  href="#"> M.S.in Teaching of Biology </a></li><br>
+			  <li   class="column-width" ><a  href="#"> Online M.S.in Teaching of Biology </a></li><br>
+			</ul>
+		</div>
+	      </div>
+            </li>
+          </ul>
+        </li>
+
+
+    <!-- Menu Item-2 -->
+    <li class="dropdown supermenu "><a href="#" data-toggle="dropdown" class="dropdown-toggle">Undergraduate</a>
+      <ul class="dropdown-menu">
+	<li>
+	   <div class="supermenu-content">
+	    <div class="row">
+
+	      <ul class="col-md-5 list-unstyled">
+		<li><strong><%= link_to "Advising", advising_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Prospective", prospective_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "What Can I do with IB?", options_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Programs of Study", programs_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Special Programs", special_programs_path %></strong></li>
+	      </ul>
+
+	      <ul class="col-sm-2 list-unstyled">
+
+
+	
+	      </ul>
+
+	
+	
+	</div>
+          </div>
+        </li>
+      </ul>
+    </li>
+
+
+    <!-- Menu Item-3 -->
+    <li class="dropdown supermenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Graduate</a>
+      <ul class="dropdown-menu">
+	<li>
+	   <div class="supermenu-content">
+	    <div class="row">
+	      <ul class="col-sm-2 list-unstyled">
+		<li> <p><strong>--Title??-- </strong></p></li>
+		<li><a  href="#"> Grants & Awards </a></li><br>
+		<li><a  href="#"> Support </a></li><br>
+		<li><a  href="#"> News & Features </a></li><br>
+	      </ul>
+
+	      <ul class="col-sm-2 list-unstyled">
+		<li> <p><strong> Department & Programs </strong></p></li>
+		<li class="column-width" ><a  href="#"> Animal Biology </a></li><br>
+		<li  class="column-width"><a  href="#"> Entamology </a></li><br>
+		<li  class="column-width"><a  href="#"> Plant Biology </a></li><br>
+		<li  class="column-width"><a  href="#"> Program in Ecology, Evolution & Conservation Biology (PEEC) </a></li><br>
+		<li  class="column-width"><a  href="#"> Neuroscience Program(NSP) </a></li><br>
+		<li  class="column-width"><a  href="#"> M.S.in Teaching of Biology(MST) </a></li><br>
+		<li  class="column-width"><a  href="#"> Online M.S.in Teaching of Biology </a></li><br>
+	      </ul>
+           </div>
+         </div>
+        </li>
+       </ul>
+    </li>
+
+
+
+   </ul>
+  </div>
+ </div>
+</div>
+</header>
+

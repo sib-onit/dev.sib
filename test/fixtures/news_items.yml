@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  headline: MyString
+  summary: MyText
+  text: MyText
+  image_url: MyString
+  published: 1
+  publication_date: 2015-04-21 13:54:09
+  departments: MyString
+  category: MyString
+  updated_by: MyString
+  created_at: 2015-04-21 13:54:09
+  updated_at: 2015-04-21 13:54:09
+  author: MyString
+  image_mcb_file_name: MyString
+  image_mcb_content_type: MyString
+  image_mcb_file_size: 1
+  image_mcb_updated_at: 2015-04-21 13:54:09
+  image_cdb_file_name: MyString
+  image_cdb_content_type: MyString
+  image_cdb_file_size: 1
+  image_cdb_updated_at: 2015-04-21 13:54:09
+  image_mcb_caption: MyText
+  image_cdb_caption: MyText
+
+two:
+  headline: MyString
+  summary: MyText
+  text: MyText
+  image_url: MyString
+  published: 1
+  publication_date: 2015-04-21 13:54:09
+  departments: MyString
+  category: MyString
+  updated_by: MyString
+  created_at: 2015-04-21 13:54:09
+  updated_at: 2015-04-21 13:54:09
+  author: MyString
+  image_mcb_file_name: MyString
+  image_mcb_content_type: MyString
+  image_mcb_file_size: 1
+  image_mcb_updated_at: 2015-04-21 13:54:09
+  image_cdb_file_name: MyString
+  image_cdb_content_type: MyString
+  image_cdb_file_size: 1
+  image_cdb_updated_at: 2015-04-21 13:54:09
+  image_mcb_caption: MyText
+  image_cdb_caption: MyText
