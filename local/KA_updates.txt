@@ -1,0 +1,101 @@
+
+
+08-May-2015:
+============
+--Supermenu Navbar: 
+	--Fixed the stretching of the supermenu bar, to full screen, upon scroll down
+--Added left/right padding to the main content section of the page
+--ABout pages: DONE creating, editing and styling all pages for About section.
+	--Departments & Programs
+	--FAQs
+	--WHy major in IB?
+	--Contact US
+	--Convocation
+
+
+TBD: 
+
+1. The extra padding of the supermenu navbar items. Only in CHrome. It removes the extra padding on hover.
+2. The sidebar does not expand in the collapsed view
+3. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
+
+
+========================================================================================
+
+07-May-2015
+=============
+
+– Moved all files from /ashwini to /dev.sib
+- Created a GIT repository and github account for /dev.sib 
+--Collapsed Supermenu Navbar:
+	--Fixed the collapsed supermenu navbar. Loads without any extra padding and can be scrolled up and down
+	--Fixed the problem of dissapearing items in the sections when expanding a particular section without collapsing the previous one.
+
+Supermenu:
+	--Rearranged and restyled the items
+	--Fixed/removed some items in the menu sections
+	--Added background image (the GIMP edited image, with gradient)
+
+– Created several controllers and views for the supermenu (several new pages for menu items)
+
+
+TBD: 
+
+1. The extra padding of the supermenu navbar items. Only in Chrome. It removes the extra padding on hover.
+2. The sidebar does not expand in the collapsed view
+
+
+========================================================================================
+05-May-2015
+============
+
+--Created a side navigation bar for Undergraduate.
+--Features of side navigation bar:
+	--When accessing the Ugrad pages from supermenu navbar, the page opens with its corresponding section in the sidebar expanded.
+	--The heading the sidebar is also a link and clicking on it will open the home page for that section (e.g: Advising, Prospective, Programs of Study etc)
+
+
+
+========================================================================================
+As of
+04-May-2015
+============
+-- Home page News slider
+	- Removed the additional padding on top.
+	- Increased the width of the slider to as big as the content section
+	- Added a link at the bottom of the slider to go to the entire News list
+
+– Home page logo
+	- Removed the padding on top of the logo.
+
+– All News list page
+	– Edited this page to show a random image for now. Linked this page to the link from the home page (/ashwini/news/index)
+
+
+– Top nav bar -Undergradaute
+	– Reduced the number of items in the supermenu for Ugrad
+	– Designed new pages for all the main links in the Ugrad section	
+	– Pages created are: ugrad: advising, prospective, options, programs, special programs
+
+========================================================================================
+
+Home page: As of 28-Apr-2015
+--------------------------------------------------
+1. Super menu bar - full page width
+
+2. News slider below the supermenu, loading news from database
+
+3. Calendar events, from DB, showing in 4 column panel format
+
+4. SIB logo show and lock on nab bar on scroll down and hide on scroll up
+
+5. Lock Nav bar on top of page upon scroll down
+
+6. First item (<li> element) in the menu bar has left padding on page load. This needs to be removed when the SIB logo appears on the menu bar. Also, it needs to be added back when the logo dissapears from the menu bar. This is handled using Jquery in navrbar.js file
+
+
+
+
+
+
+

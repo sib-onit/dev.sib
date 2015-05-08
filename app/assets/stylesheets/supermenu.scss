@@ -1,23 +1,33 @@
-/* KA: Super Menu styles 
-Credits: Geedmo@yamm
-*/
+/* KA: Super Menu styles for big screens*/
+
+.supermenu {max-width: 960px;}
+
+
 .supermenu .nav,
 .supermenu .collapse,
 .supermenu .dropup,
 .supermenu .dropdown {
 	position: static;
+  
+
 }
 
 .supermenu .container {
 	  position: relative;
-}
+	 	  }
 
 .supermenu .dropdown-menu {
 	  left: auto;
- }
+  }
 
 .supermenu .supermenu-content {
-	  padding: 20px 30px;
+	padding: 20px 30px; 
+    /* KA: Set background image for only big screens */	
+    @media (min-width: 768px) {
+	background-image: url("students-faded.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	}
  }
 
 .supermenu .dropdown.supermenu .dropdown-menu {
@@ -40,8 +50,10 @@ Credits: Geedmo@yamm
 
 /* KA:Show menu options on hover */
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
-    	display: block;       
+	  @media (min-width: 768px) {
+	    	display: block;       
 		}
+	}
 
 
 /* Navbar-level 2 - menu styes */
@@ -93,10 +105,12 @@ Credits: Geedmo@yamm
 	The padding width is based on the width of SIB logo and 244px results in the least jump during the logo toggle (upon scrool up/down) on navbar
 	Note: If you decide to change the logo or its width, make sure this padding width is adjusted based on that.
 */
-	
-#navitem1{
-	padding-left: 245px;
-}
 
+
+#navitem1{
+	  @media (min-width: 768px) {
+		padding-left: 245px;
+		}
+	}
 
 

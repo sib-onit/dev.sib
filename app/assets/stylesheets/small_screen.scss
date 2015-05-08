@@ -1,14 +1,17 @@
+/* kA: Super menu styles for small screens (collapsed Navbar) */
 
-
-/* kA: Styles for collapsed Navbar*/
-
+/*
 @media handheld {
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
     	display: none;       
 		}
 	}
+*/
+
 
 @media (max-width: 767px) {
+
+
 	/*Hide the top banner in small screens*/
 	#banner {
 		  display: none;		
@@ -19,12 +22,13 @@
 		padding-left: 0px;
 	}
 
-	/* Disable menu hover on small screen*/
+	/* Disable menu hover on small screen
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
     		display: none;       
 	}
+*/
 
-	//Styles for small screen menu
+	/*Styles for small screen menu*/
 	#navbar-collapse-1,
 	#navbar-collapse-1 ul,
 	#navbar-collapse-1 li,
@@ -66,15 +70,15 @@
 
 	#navbar-collapse-1 ul ul li {
 	  padding: 0;
-	  border-bottom: 1px solid #d4d4d4;
+	  /*border-bottom: 1px solid #d4d4d4;*/
 	  border-top: none;
-	  background: #f7f7f7;
-	  background: linear-gradient(#f7f7f7 0%, #ececec 100%);
 	  width:767px;
 	  display:inline-block;
 	  height: auto;
  	  max-height: 700px;
 	  overflow-x: hidden;
+	  line-height: 1px;
+	  background-color: white;
 	}
 
 	#navbar-collapse-1 ul ul a {
@@ -93,7 +97,9 @@
 	}
 
 	#navbar-collapse-1 ul ul a:hover {
-	    color: #e94f31;
+	    color: black;
+	    background-color: #EEE;
 	}
+
 
 }

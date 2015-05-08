@@ -1,6 +1,6 @@
 <header class="header"> 
 
-   <div class="container" id="banner" >
+   <div class="container" id="banner"  >
       <div class="row"> 
 
 
@@ -28,47 +28,29 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-       <a href="/ashwini" class="navbar-brand"> School of Integrative Biology</a>
+       <a href="/" class="navbar-brand"> School of Integrative Biology</a>
       </div>
 
      
     <!-- Menu Item-1 -->
-     <div id="navbar-collapse-1" class="navbar-collapse collapse">
+     <div id="navbar-collapse-1" class="navbar-collapse collapse" >
 	<ul class="nav navbar-nav">
 	   <li class="dropdown supermenu" id = "navitem1"><a href="#" data-toggle="dropdown" class="dropdown-toggle"  >About</a>
-	     <ul class="dropdown-menu">
+	     <ul class="dropdown-menu" >
 	       <li>
 	          <div class="supermenu-content">
 		    <div class="row">
-			<ul class="col-sm-2 list-unstyled">
-			  <li><p><strong>--Title??-- </strong></p></li>
-			  <li><a  href="#"> News & Events </a></li><br>
-			  <li><a   href="#"> Contact Us </a></li><br>
-			  <li><a  href="#"> IB Blog </a></li><br>
-			</ul>
-
-			<ul class="col-sm-2 list-unstyled">
-			  <li class="column-width"><p><strong>People</strong></p></li>
-			  <li class="column-width" ><a  href="#"> Faculty </a></li><br>
-			  <li class="column-width" ><a  href="#"> Staff </a></li><br>
-			  <li class="column-width" ><a  href="#"> Academics </a></li><br>
-			  <li class="column-width" ><a  href="#"> Graduate Students </a></li><br>
-			</ul>
-
-			<ul class="col-sm-2 list-unstyled">
-			  <li><p><strong>Departments</strong></p></li>
-			  <li><a  href="#"> Animal Biology </a></li><br>
-			  <li><a  href="#"> Entomology </a></li><br>
-			  <li><a  href="#"> Plant Biology </a></li><br>
-			</ul>
-
-			<ul class="col-sm-2 list-unstyled">
-			  <li class="column-width"><p><strong>Programs</strong></p></li>
-			  <li class="column-width" ><a  href="#"> Program in Ecology,Evolution & Conservation Biology (PEEC) </a></li><br>
-			  <li   class="column-width" ><a  href="#"> Neuroscience Program (NSC) </a></li><br>
-			  <li   class="column-width" ><a  href="#"> M.S.in Teaching of Biology </a></li><br>
-			  <li   class="column-width" ><a  href="#"> Online M.S.in Teaching of Biology </a></li><br>
-			</ul>
+		      <ul class="col-md-5 list-unstyled">
+			<li><strong><%= link_to "Department & Programs", about_depts_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "FAQs", about_faq_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "Why major in IB?", about_whyib_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "Contact Us", about_contact_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "Convocation", about_convocation_path %></strong></li>
+		      </ul>
 		</div>
 	      </div>
             </li>
@@ -81,7 +63,7 @@
       <ul class="dropdown-menu">
 	<li>
 	   <div class="supermenu-content">
-	    <div class="row">
+	    <div class="row"  >
 
 	      <ul class="col-md-5 list-unstyled">
 		<li><strong><%= link_to "Advising", advising_path %></strong></li>
@@ -94,16 +76,7 @@
 		<hr>
 		<li><strong><%= link_to "Special Programs", special_programs_path %></strong></li>
 	      </ul>
-
-	      <ul class="col-sm-2 list-unstyled">
-
-
-	
-	      </ul>
-
-	
-	
-	</div>
+  	</div>
           </div>
         </li>
       </ul>
@@ -116,22 +89,66 @@
 	<li>
 	   <div class="supermenu-content">
 	    <div class="row">
-	      <ul class="col-sm-2 list-unstyled">
-		<li> <p><strong>--Title??-- </strong></p></li>
-		<li><a  href="#"> Grants & Awards </a></li><br>
-		<li><a  href="#"> Support </a></li><br>
-		<li><a  href="#"> News & Features </a></li><br>
+	       <ul class="col-md-5 list-unstyled">
+		<li><strong><%= link_to "Departments & Programs", grad_depts_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Grants & Awards", grad_grants_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Support", grad_support_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "News & Features", grad_news_path %></strong></li>
 	      </ul>
+           </div>
+         </div>
+        </li>
+       </ul>
+    </li>
 
-	      <ul class="col-sm-2 list-unstyled">
-		<li> <p><strong> Department & Programs </strong></p></li>
-		<li class="column-width" ><a  href="#"> Animal Biology </a></li><br>
-		<li  class="column-width"><a  href="#"> Entamology </a></li><br>
-		<li  class="column-width"><a  href="#"> Plant Biology </a></li><br>
-		<li  class="column-width"><a  href="#"> Program in Ecology, Evolution & Conservation Biology (PEEC) </a></li><br>
-		<li  class="column-width"><a  href="#"> Neuroscience Program(NSP) </a></li><br>
-		<li  class="column-width"><a  href="#"> M.S.in Teaching of Biology(MST) </a></li><br>
-		<li  class="column-width"><a  href="#"> Online M.S.in Teaching of Biology </a></li><br>
+    <!-- Menu Item-4 -->
+    <li class="dropdown supermenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Courses</a>
+      <ul class="dropdown-menu">
+	<li>
+	   <div class="supermenu-content">
+	    <div class="row">
+	      <ul class="col-md-5 list-unstyled">
+		  <li><strong><a  href="#"> All IB Courses </a></strong></li>
+		  <hr>
+		  <li><strong><a  href="#"> Advanced Courses By Semester </a></strong></li>
+		  <hr>
+		  <li><strong><a  href="#"> Advanced Area Courses </a></strong></li>
+		  <hr>
+		  <li><strong><a  href="#"> Addtional Approved Advanced Courses</a></strong></li>
+ 		  <hr>
+		  <li><strong><a  href="#"> Special Topics Courses</a></strong></li>
+		  <hr>
+		  <li><strong><a  href="#"> Proficiency Exams </a></strong></li>
+
+	      </ul> 	  
+           </div>
+         </div>
+        </li>
+       </ul>
+    </li>
+
+    <!-- Menu Item-5 -->
+    <li class="dropdown supermenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">People</a>
+      <ul class="dropdown-menu">
+	<li>
+	   <div class="supermenu-content">
+	    <div class="row">
+	      <ul class="col-md-5 list-unstyled">
+		<li><strong><%= link_to "Faculty", people_faculty_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Staff", people_staff_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Academics", people_academics_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Graduate Students", people_grad_students_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Faculty Interviews", people_faculty_interviews_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "390/490 Faculty", people_faculty_other_path %></strong></li>
+
 	      </ul>
            </div>
          </div>

@@ -14,9 +14,15 @@ KA: Using Nesting techniques to nest attributes with the element.
 
 body{
 	background-color: #EEE;
-  font-size: 11px;
-  line-height: 16px;
+	font-size: 11px;
+	line-height: 16px;
 }
+
+#main_content {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
 
 
 #container {
@@ -81,14 +87,27 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size: 1.2em;
+.row h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #E87722;
 }
+
+
+.row h4 {
+   font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  color: #002058;
+}
+
+
 
 p {
   font-size: 12px;
@@ -123,17 +142,29 @@ textarea {
 
 //KA: column divs padding
 
+//KA: Adding this class will reduce the gap between 2 divs a little bit, but when the window is resized it will not wrap the contents well. Hence, commenting this for now.
+/*
 .col-md-8.no-gutter{
    	padding-left: 0px;
  	margin-left: 0px;
 
 }
-
+*/
 
 .col-md-9.no-gutter{
    	padding-left: 0px;
  	margin-left: 0px;
 
+}
+
+//-----------Font awesome-ICONS---------------
+
+//KA: The info bullet icon for lists
+.fa-info-circle, 
+.fa-user  {
+    color: #E87722;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
 }
 
 
