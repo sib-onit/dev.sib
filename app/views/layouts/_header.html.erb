@@ -32,10 +32,15 @@
       </div>
 
      
-    <!-- Menu Item-1 -->
+    <!-- Supermenu Navbar -->
      <div id="navbar-collapse-1" class="navbar-collapse collapse" >
 	<ul class="nav navbar-nav">
-	   <li class="dropdown supermenu" id = "navitem1"><a href="#" data-toggle="dropdown" class="dropdown-toggle"  >About</a>
+
+<!-- Navbar Home button -->
+	<li class="dropdown supermenu" id="navbar_home"><a href="/" class="dropdown-toggle"><i class="fa fa-home"></i></a>
+
+<!-- Menu Item-1 -->
+	   <li class="dropdown supermenu" id = "navitem1"><a href="/about" class="dropdown-toggle"  >About</a>
 	     <ul class="dropdown-menu" >
 	       <li>
 	          <div class="supermenu-content">
@@ -59,7 +64,8 @@
 
 
     <!-- Menu Item-2 -->
-    <li class="dropdown supermenu "><a href="#" data-toggle="dropdown" class="dropdown-toggle">Undergraduate</a>
+   <!-- <li class="dropdown supermenu "><a href="#" data-toggle="dropdown" class="dropdown-toggle">Undergraduate</a>  -->
+    <li class="dropdown supermenu "><a href="/undergraduate" class="dropdown-toggle">Undergraduate</a>
       <ul class="dropdown-menu">
 	<li>
 	   <div class="supermenu-content">
@@ -84,17 +90,17 @@
 
 
     <!-- Menu Item-3 -->
-    <li class="dropdown supermenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Graduate</a>
+    <li class="dropdown supermenu"><a href="/graduate" class="dropdown-toggle">Graduate</a>
       <ul class="dropdown-menu">
 	<li>
 	   <div class="supermenu-content">
 	    <div class="row">
 	       <ul class="col-md-5 list-unstyled">
-		<li><strong><%= link_to "Departments & Programs", grad_depts_path %></strong></li>
+		<li><strong><%= link_to "Department & Programs", about_depts_path %></strong></li>
 		<hr>
 		<li><strong><%= link_to "Grants & Awards", grad_grants_path %></strong></li>
 		<hr>
-		<li><strong><%= link_to "Support", grad_support_path %></strong></li>
+		<li><strong><a  href="http://www.grad.illinois.edu/"> Support </a></strong></li>
 		<hr>
 		<li><strong><%= link_to "News & Features", grad_news_path %></strong></li>
 	      </ul>
@@ -105,7 +111,7 @@
     </li>
 
     <!-- Menu Item-4 -->
-    <li class="dropdown supermenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Courses</a>
+    <li class="dropdown supermenu"><a href="#" class="dropdown-toggle">Courses</a>
       <ul class="dropdown-menu">
 	<li>
 	   <div class="supermenu-content">
@@ -131,7 +137,7 @@
     </li>
 
     <!-- Menu Item-5 -->
-    <li class="dropdown supermenu"><a href="#" data-toggle="dropdown" class="dropdown-toggle">People</a>
+    <li class="dropdown supermenu"><a href="/people" class="dropdown-toggle">People</a>
       <ul class="dropdown-menu">
 	<li>
 	   <div class="supermenu-content">
@@ -163,4 +169,5 @@
  </div>
 </div>
 </header>
+
 

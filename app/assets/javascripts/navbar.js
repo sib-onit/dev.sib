@@ -10,10 +10,14 @@
 
 var ready;
 ready = function() {
-
+ 
 		/*KA: Hide the logo on nav bar on page load  */
 	    	if ($(window).width() > 767) {
-		  	$("#logo_div > a").hide();
+			$("#logo_div > a").hide();
+		//KA: Chrome is the only browser that adds extra padding to the left of the first div. Hence handling it exclusively here, by adding the right amount of padding.
+			if(/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())){
+				$("#navitem1").attr('style','padding-left: 220px;');
+			}
 		    }
 
 		/*KA: Get the height of the banner */
@@ -24,15 +28,34 @@ ready = function() {
   		/*KA: On large screens: Show logo on the navbar and remove padding on 1st element on scrolldown */
 		  if ($(window).width() > 767) {
         		if($(window).scrollTop() > topofbanner) { 
+
+			//KA: Show the SIB logo on navbar
 			$("#logo_div > a").show()
+
+			//KA: Hide the home button on the navbar
+			$("#navbar_home > a").hide()
+			
+			//KA: Reduce the firstDIv padding to 0px when the SIB logo appears
 			$("#navbar-collapse-1 > ul > li").attr('style','padding-left: 0px;');
 			}
 		    }
-		/*KA: On large screens: Hide logo when banner is visible and add the padding back when scrolling up*/
-		if($(window).scrollTop() < topofbanner) { 
+		/*KA: On large screens: Hide logo when banner is visible and add the padding back when scrolling up*/		if($(window).scrollTop() < topofbanner) { 
 			 if ($(window).width() > 767) {
+			
+			//KA: Hide the SIB logo on navbar
 		      	$("#logo_div > a").hide();
-	   		$("#navbar-collapse-1 > ul > li").eq(0).attr('style','padding-left: 245px;');	
+			
+			//KA: Show the home button on the navbar
+			$("#navbar_home > a").show()
+	   		//$("#navbar-collapse-1 > ul > li").eq(0).attr('style','padding-left: 245px;');
+
+			//KA: Add the padding back, so the list won't move to the left.
+			$("#navitem1").eq(0).attr('style','padding-left: 245px;');
+
+			//KA: To sHow the home button in the left corner, reduce the padding to 0px.
+			$("#navbar_home").attr('style','padding-left: 0px;');
+
+	
        			}
 		    }
 		});

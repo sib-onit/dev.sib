@@ -1,5 +1,27 @@
+11-May-2015:
+============
+-- Supermenu Navbar:
+	-Fixed the Chrome issue of extra padding on the first div on navbar. Handled this in Jquery.
+	-Added, Home icon to the left, on the navbar.
+--Undergraduate Pages:
+	-Advising
+	-Prospective
+	-What Can I do with IB (options)
+	-Special Programs
+
+--Graduate
+	-Departments & Programs
+	-Grants & Awards
 
 
+TBD: 
+
+1. The extra padding of the supermenu navbar items. Only in CHrome. It removes the extra padding on hover.----DONE
+2. The sidebar does not expand in the collapsed view
+3. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
+
+
+===========================================================================================
 08-May-2015:
 ============
 --Supermenu Navbar: 
