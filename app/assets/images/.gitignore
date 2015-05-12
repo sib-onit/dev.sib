@@ -1,1 +1,9 @@
-*
+/*.gif
+images/*
+!images/sib
+images/sib/*
+images/public
+images/public/*
+logs/*
+tmp/*
+!.gitignore

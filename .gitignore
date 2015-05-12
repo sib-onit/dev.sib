@@ -12,3 +12,7 @@
 !/log/.keep
 /tmp
 /app/assets/images/*
+/app/assets/images/sib
+/app/assets/images/sib/*
+/app/assets/images/public
+/app/assets/images/public/*
