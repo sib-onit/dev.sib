@@ -2,7 +2,7 @@
 images/*
 !images/sib
 images/sib/*
-images/public
+!images/public
 images/public/*
 images/public/Greenhouse_Slideshow/Archive.zip
 images/public/ib_honors/honors_lab.zip
@@ -13,10 +13,6 @@ sib/*
 public/*
 public/Greenhouse_Slideshow/Archive.zip
 public/ib_honors/honors_lab.zip
-
-
-
-
 logs/*
 tmp/*
 !.gitignore
