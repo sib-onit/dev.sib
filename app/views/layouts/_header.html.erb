@@ -46,15 +46,13 @@
 	          <div class="supermenu-content">
 		    <div class="row">
 		      <ul class="col-md-5 list-unstyled">
-			<li><strong><%= link_to "Department & Programs", about_depts_path %></strong></li>
+			<li><strong><%= link_to "People-New", about_depts_path %></strong></li>
 			<hr>
-			<li><strong><%= link_to "FAQs", about_faq_path %></strong></li>
+			<li><strong><%= link_to "Research-New", about_depts_path %></strong></li>
 			<hr>
-			<li><strong><%= link_to "Why major in IB?", about_whyib_path %></strong></li>
+			<li><strong><%= link_to "Departments", about_depts_path %></strong></li>
 			<hr>
-			<li><strong><%= link_to "Contact Us", about_contact_path %></strong></li>
-			<hr>
-			<li><strong><%= link_to "Convocation", about_convocation_path %></strong></li>
+			<li><strong><%= link_to "Programs -New", about_depts_path %></strong></li>
 		      </ul>
 		</div>
 	      </div>
@@ -72,22 +70,20 @@
 	    <div class="row"  >
 
 	      <ul class="col-md-5 list-unstyled">
-		<li><strong><%= link_to "Advising", advising_path %></strong></li>
-		<hr>
 		<li><strong><%= link_to "Prospective", prospective_path %></strong></li>
 		<hr>
-		<li><strong><%= link_to "What Can I do with IB?", options_path %></strong></li>
+		<li><strong><a  href="#"> Courses -NEW </a></strong></li>
 		<hr>
-		<li><strong><%= link_to "Programs of Study", programs_path %></strong></li>
+		<li><strong><a  href="#"> Honors -NEW </a></strong></li>
 		<hr>
-		<li><strong><%= link_to "Special Programs", special_programs_path %></strong></li>
-	      </ul>
+		<li><strong><%= link_to "Advising", advising_path %></strong></li>
+				      
+              </ul>
   	</div>
           </div>
         </li>
       </ul>
     </li>
-
 
     <!-- Menu Item-3 -->
     <li class="dropdown supermenu"><a href="/graduate" class="dropdown-toggle">Graduate</a>
@@ -96,13 +92,29 @@
 	   <div class="supermenu-content">
 	    <div class="row">
 	       <ul class="col-md-5 list-unstyled">
-		<li><strong><%= link_to "Department & Programs", about_depts_path %></strong></li>
-		<hr>
-		<li><strong><%= link_to "Grants & Awards", grad_grants_path %></strong></li>
-		<hr>
-		<li><strong><a  href="http://www.grad.illinois.edu/"> Support </a></strong></li>
-		<hr>
-		<li><strong><%= link_to "News & Features", grad_news_path %></strong></li>
+		   <li><strong><a  href="#"> Prospective -NEW </a></strong></li>
+		   <hr>
+	      	   <li><strong><a  href="#"> Courses -NEW </a></strong></li>
+      	       </ul>
+           </div>
+         </div>
+        </li>
+       </ul>
+    </li>
+
+
+ <!-- Menu Item-4 -->
+    <li class="dropdown supermenu"><a href="/people" class="dropdown-toggle">Alumni & Friends</a></li>
+
+
+ <!-- Menu Item-5 -->
+    <li class="dropdown supermenu"><a href="/people" class="dropdown-toggle">Resources</a>
+      <ul class="dropdown-menu">
+	<li>
+	   <div class="supermenu-content">
+	    <div class="row">
+	      <ul class="col-md-5 list-unstyled">
+		   <li><strong><a  href="#"> For Faculty & Staff </a></strong></li>			
 	      </ul>
            </div>
          </div>
@@ -110,50 +122,59 @@
        </ul>
     </li>
 
-    <!-- Menu Item-4 -->
-    <li class="dropdown supermenu"><a href="#" class="dropdown-toggle">Courses</a>
+ <!-- Menu Item-6 -->
+    <li class="dropdown supermenu"><a href="/people" class="dropdown-toggle">Removed</a>
       <ul class="dropdown-menu">
 	<li>
 	   <div class="supermenu-content">
 	    <div class="row">
 	      <ul class="col-md-5 list-unstyled">
-		  <li><strong><a  href="#"> All IB Courses </a></strong></li>
+		 <li><strong><%= link_to "Ugrad-What Can I do with IB?", options_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Ugrad-Programs of Study", programs_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "Ugrad-Special Programs", special_programs_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "GRAD-Department & Programs", about_depts_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "GRAD-Grants & Awards", grad_grants_path %></strong></li>
+		<hr>
+		<li><strong><a  href="http://www.grad.illinois.edu/"> GRAD-Support </a></strong></li>
+		<hr>
+		<li><strong><%= link_to "GRAD-News & Features", grad_news_path %></strong></li>
+		<hr>
+  		<li><strong><a  href="#"> Courses- All IB Courses </a></strong></li>
 		  <hr>
-		  <li><strong><a  href="#"> Advanced Courses By Semester </a></strong></li>
+		  <li><strong><a  href="#"> Courses- Advanced Courses By Semester </a></strong></li>
 		  <hr>
-		  <li><strong><a  href="#"> Advanced Area Courses </a></strong></li>
+		  <li><strong><a  href="#"> Courses- Advanced Area Courses </a></strong></li>
 		  <hr>
-		  <li><strong><a  href="#"> Addtional Approved Advanced Courses</a></strong></li>
+		  <li><strong><a  href="#"> Courses- Addtional Approved Advanced Courses</a></strong></li>
  		  <hr>
-		  <li><strong><a  href="#"> Special Topics Courses</a></strong></li>
+		  <li><strong><a  href="#"> Courses- Special Topics Courses</a></strong></li>
 		  <hr>
-		  <li><strong><a  href="#"> Proficiency Exams </a></strong></li>
+		  <li><strong><a  href="#"> Courses- Proficiency Exams </a></strong></li><hr>
+		<li><strong><%= link_to "People-Faculty", people_faculty_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "People-Staff", people_staff_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "People-Academics", people_academics_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "People-Graduate Students", people_grad_students_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "People-Faculty Interviews", people_faculty_interviews_path %></strong></li>
+		<hr>
+		<li><strong><%= link_to "People-390/490 Faculty", people_faculty_other_path %></strong></li>
+		<hr>
+			<li><strong><%= link_to "About-FAQs", about_faq_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "About-Why major in IB?", about_whyib_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "About-Contact Us", about_contact_path %></strong></li>
+			<hr>
+			<li><strong><%= link_to "About-Convocation", about_convocation_path %></strong></li>
 
-	      </ul> 	  
-           </div>
-         </div>
-        </li>
-       </ul>
-    </li>
 
-    <!-- Menu Item-5 -->
-    <li class="dropdown supermenu"><a href="/people" class="dropdown-toggle">People</a>
-      <ul class="dropdown-menu">
-	<li>
-	   <div class="supermenu-content">
-	    <div class="row">
-	      <ul class="col-md-5 list-unstyled">
-		<li><strong><%= link_to "Faculty", people_faculty_path %></strong></li>
-		<hr>
-		<li><strong><%= link_to "Staff", people_staff_path %></strong></li>
-		<hr>
-		<li><strong><%= link_to "Academics", people_academics_path %></strong></li>
-		<hr>
-		<li><strong><%= link_to "Graduate Students", people_grad_students_path %></strong></li>
-		<hr>
-		<li><strong><%= link_to "Faculty Interviews", people_faculty_interviews_path %></strong></li>
-		<hr>
-		<li><strong><%= link_to "390/490 Faculty", people_faculty_other_path %></strong></li>
 
 	      </ul>
            </div>
@@ -161,6 +182,7 @@
         </li>
        </ul>
     </li>
+
 
 
 
