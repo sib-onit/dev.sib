@@ -13,23 +13,19 @@
        <!-- KA: Loop through the news items and set the class for the first item as 'active' -->
        <div class="carousel-inner">
 	  <%@news.each_with_index do |t,i|%>
-	  <%if i == 0%>
-            <div class="item active">
-		<div class="fill" style="background-image:url('http://blog.speakupmovement.org/university/wp-content/uploads/2010/07/university-of-Illinois.jpg');" ></div>
-                <div class="carousel-caption">
-                    <h3> <a class="links" href="newsitem.html"><%= t.headline.html_safe %></a></h3>
-                </div>
-            </div>
-	  <%else%>
-	    <div class="item">
-		<div class="fill" style="background-image:url('http://blog.speakupmovement.org/university/wp-content/uploads/2010/07/university-of-Illinois.jpg');" ></div>
+            <% # set which image is shown first
+               active = ''
+               active = "active" if i == 0 %>
+               
+            <div class="item <%= active %>">
+		<div class="fill" style="background-image:url('http://blog.speakupmovement.org/university/wp-content/uploads/2010/07/university-of-Illinois.jpg');" ></div>  
+	 <!--<div class="fill" style="background-image:url(assets/berenbaum-mayMedal.jpg);" ></div> -->
+
                 <div class="carousel-caption">
                     <h3> <a class="links" href="newsitem.html"><%= t.headline.html_safe %></a></h3>
                 </div>
             </div>
 
-	  <%end%>	
-			    
   	  <%end%>
 	</div>
 

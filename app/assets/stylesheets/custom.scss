@@ -35,6 +35,7 @@ body{
 
 	}
 
+//Footer
 
 footer {
   margin-top: 45px;
@@ -56,19 +57,6 @@ footer {
     li {
       float: left;
       margin-left: 15px;
-    }
-  }
-}
-
-/*KA: href links in _header.html.erb page */
-
-header {
-  color: #777;
-  a {
-    color: #555;
-    &:hover {
-      color: #fff;
-      background-color: #707070;
     }
   }
 }
@@ -107,12 +95,29 @@ h1 {
   color: #002058;
 }
 
+.row h3 {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 1.0em;
+   letter-spacing: -1px;
+   margin-bottom: 10px;
+   font-weight: normal;
+   color: #002058;
+}
 
 
 p {
   font-size: 12px;
   line-height: 1.7em;
 }
+
+
+ a {
+    color: red;
+    &:hover {
+      color: #fff;
+    }
+  }
+
 
 
 /* universal */
@@ -162,11 +167,34 @@ textarea {
 //KA: The info bullet icon for lists
 .fa-info-circle,
 .fa-lightbulb-o,
-.fa-user  {
-    color: #E87722;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 1.5em;
-}
+.fa-user,
+.fa-external-link   
+	{
+	    color: #E87722;
+	    text-shadow: 1px 1px 1px #ccc;
+	    font-size: 1.5em;
+	}
+
+.glyphicon-chevron-right,
+.glyphicon-tags,
+.glyphicon-tag     
+			{
+			    color: #E87722;
+			    text-shadow: 1px 1px 1px #ccc;
+			 }
+
+
+//=============================
+
+//KA: used in /alumni_2 page to show featured alumni
+.portfolio-item {
+    margin-bottom: 25px;
+	img{width: 180px;
+	    height: 140px;
+		}
+		}
+
+
 
 
 

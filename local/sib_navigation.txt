@@ -111,3 +111,46 @@ For Faculty & Staff
     Purchasing
     Reimbursements / Vouchers
     Grant Preparation
+
+
+
+==========================================
+Where will these pages go??
+---------------------------
+-About
+	-FAQ
+	-Why Major in IB
+	-Contact Us
+	-Convocation
+
+--Ugrad
+	-What can I do with IB
+	-Programs of Study
+	-Special Programs
+	
+-Grad
+	-Department & Programs
+	-Grants & Awards
+	-Support
+	-News & Features
+
+
+-Courses
+	-All IB
+	-Advanced by Semester
+	-Advanced Area
+	-Additional
+	-Special Topic
+	-Proficiency Exams
+
+-People
+	-Faculty
+	-Staff
+	-Academics
+	-Graduate Students
+	-Faculty Interviews
+	-390/490 Faculty
+
+
+
+

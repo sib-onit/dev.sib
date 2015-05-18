@@ -1,10 +1,91 @@
+18-May-2015:
+============
+Based on meeting on 15-May-2015
+--------------------------------
+--Supermenu:
+	-Increased the hover area backgroud color
+	-
 
+
+
+====================================================================================================
+15-May-2105:
+===========
+--Alumni Home
+	-Alternate look for the home page: /alumni_2. Uses the portfolio method to show pictures, instead of a slider/carousel.
+--Contact us:
+	--Moved this page under About section.
+
+
+
+======================================================================================================
+14-May-2015:
+===========
+--Pages in Ipad/Tablet
+	-Fixed formatting issues for some pages in IPad/Tablet.
+
+--Working on mobile responsive sidebar
+   --Yayyy!!! I think I cracked this nut...finally! Here's what it can do now:
+	-The sidebar now expands to entire screen size when the screen is collapsed. 
+	-Before it would stick to the side with a fixed width making it hard to use the navigation on small screens 
+	-(especially phones)
+
+    --Previously available features on the sidebar, still stays:
+	-Sidebar menu title expands the items below and also opens the corresponding page
+	-E.g:click on title Advising in the sidebar, opens the Advising home page, and also expands the Advising list in the sidebar
+	-When navigating to a particular section from the Supermenu,it loads the page with the corresponding section in the sidebar expanded.
+	
+
+--Alumni Home page
+--New Sidebar Layout for Alumni Page - /layouts/_sidebar_alumni
+--New Sidebar Layout for Grads Page - /layouts/_sidebar_grad
+
+--About Link on Navbar
+	-In meeting today: Jeff proposed to change the word About, in the supermenu navbar, to 'School of Integrative Biology' 
+	-I currently have the words 'School of Integrative Biology' appear on the navbar only when you scroll down the browser and the top banner disspears. This was done sometime in the beginning of May, after Jeff felt that having to show the words 'School of Integrative Biology' on the banner and the navbar would be redundant.
+	-With the new proposal, the words 'School of Integrative Biology' will stay on the navbar all the time, along with the banner that also says 'School of Integrative Biology'.
+
+
+TBD: 
+
+1. The sidebar in collapsed/mobile view - DONE
+2. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
+
+==========================================================================================================
+13-May-2015:
+===========
+--Graduate Pages:
+	-Home: Arranged the links of interest section in a collapsed panel.
+--Removed pages:
+	--moved from the navbar to page /removed
+
+--Working on mobile responsive sidebar
+
+
+TBD: 
+
+1. The sidebar in collapsed/mobile view
+2. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
+
+===========================================================================================================
 12-May-2015:
 ============
 --Undergraduate Pages:
 	-Programs of Study
+--Supermenu Navbar:
+	-Rearranged the menu items as per the sib_navigation.txt given by Jeff.
+	 (? for Jeff: Where will the other original links go, that are not included in the list for the menu?)
+	-Increased hover area for menu items
+--News slider on Home page:
+	-Increased padding around the caption text (on hover)
+--Git:
+	-Fixed Issue with large files: Next time make sure to exclude the images folder when pushing content to github.
+	
 
+TBD: 
 
+1. The sidebar in collapsed/mobile view
+2. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
 
 
 ==============================================================================================================
@@ -27,7 +108,7 @@
 TBD: 
 
 1. The extra padding of the supermenu navbar items. Only in CHrome. It removes the extra padding on hover.----DONE
-2. The sidebar does not expand in the collapsed view
+2. The sidebar in collapsed/mobile view
 3. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
 
 
@@ -48,7 +129,7 @@ TBD:
 TBD: 
 
 1. The extra padding of the supermenu navbar items. Only in CHrome. It removes the extra padding on hover.
-2. The sidebar does not expand in the collapsed view
+2. The sidebar in collapsed/mobile view
 3. Sidebar: Modify the sidebar layout to accept variable for expanded/collapsed classes.
 
 
@@ -74,7 +155,7 @@ Supermenu:
 TBD: 
 
 1. The extra padding of the supermenu navbar items. Only in Chrome. It removes the extra padding on hover.
-2. The sidebar does not expand in the collapsed view
+2. The sidebar in collapsed/mobile view
 
 
 ========================================================================================

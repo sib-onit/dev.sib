@@ -1,47 +1,16 @@
-    <div class="panel-group" id="accordion">
-        
-	<div class="panel panel-default" >
-            <div class="panel-heading" style="max-height: 40px;">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" > Advising</a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <ul>
-                	<li><a href="#">FAQs</a></li>
-                	<li><a href="#">Make an Appointment</a></li>
-                	<li><a href="#">Academic Assistance</a> </li>
-                	<li><a href="#">Campus Links</a> </li>       
-            	    </ul>
 
-                </div>
-            </div>
-        </div>
+<div class="panel-group" id="accordion">
+   <div class="panel panel-default" >
+	  <ul id="sidebar1" class="ugrad_menu">
+		<li class="panel-title"><a class="collapsed" target="_self" href="#">Prospective</a></li>
+		<li class="panel-title"><a class="collapsed" target="_self" href="#">Courses</a></li>
+	        <li class="panel-title"><a class="collapsed" target="_self" <%= link_to "Grants & Awards", grad_grants_path %></a></li>
+		<li class="panel-title"><a class="expanded" target="_blank" href="http://www.grad.illinois.edu/">Support &nbsp;&nbsp; <i class="fa fa-external-link"></i></a></li>
+		<li class="panel-title"><a class="collapsed" target="_self" <%= link_to "News & Features", grad_news_path %></a></li>
 
-
-	<div class="panel panel-default" >
-            <div class="panel-heading" style="max-height: 40px;">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Grants & Awards</a>
-                </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse in">
-                <div class="panel-body">
-                    <p>Prospective List</p>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default" >
-            <div class="panel-heading" style="max-height: 40px;">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Support</a>
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p>Programs list</p>
-                </div>
-            </div>
-	</div>
+		
+</ul>
 </div>
+</div>
+
+

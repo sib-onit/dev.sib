@@ -14,7 +14,5 @@
 !app/assets/images/*
 !app/assets/images/sib
 app/assets/images/sib/*
-!app/assets/images/public
-app/assets/images/public/*
-app/assets/images/public/Greenhouse_Slideshow/Archive.zip
-app/assets/images/public/ib_honors/honors_lab.zip
+app/assets/images/sib/PageHeader
+app/assets/images/sib/PageHeader/*

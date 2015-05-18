@@ -40,9 +40,10 @@
 .supermenu .dropdown .dropdown-toggle{
 	color: white;
 	font-size: 14px;
+	font-weight: bold;
  &:hover{
 	background-color: white; 
-	color: black;
+	color: black;	
 	}
       }
 
@@ -50,8 +51,8 @@
 
 /* KA:Show menu options on hover */
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
-	  @media (min-width: 768px) {
-	    	display: block;       
+	   @media (min-width: 768px) {
+	    	display: block;   	    
 		}
 	}
 
@@ -61,13 +62,23 @@
 	.list-unstyled ul { min-width: 50px }
 	.column-width {width: 400px }
 
+//KA: Navbar list items on hover
+	.list-unstyled li:hover { 			 
+ 				padding: 0px 10px 0px 0px;
+				a {
+				color: #E87722;
+				display: block;	
+			   	background-color: #f6f6f6;}
+				}
+	
+
 
 /*SIB logo on navbar  */
 .navbar-header .navbar-brand{
 	color: white;
    &:hover{
 	background-color: white; 
-	color: black;
+	color: black;	
 	}
       }
 
@@ -98,6 +109,22 @@
      	padding-bottom: 15px;
 	text-align: center;
        }
+
+header {
+  color: #777;
+  a {
+    color: #555;
+    &:hover {
+      color: #fff;
+      background-color: #707070;
+      }
+  }
+}
+
+
+
+
+
 */
 
 /*==============*/
@@ -106,10 +133,12 @@
 	Note: If you decide to change the logo or its width, make sure this padding width is adjusted based on that.
 */
 
+//18-May-2015: Changing the About in Navbar to School of Integrative Biology
 
 #navitem1{
 	  @media (min-width: 768px) {
-		padding-left: 245px;
+		/*padding-left: 245px;*/
+		padding-left: 50px;
 		}
 	}
 

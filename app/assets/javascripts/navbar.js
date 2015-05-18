@@ -6,6 +6,9 @@
   4. The first <li> item in the menu has left padding upon page load. This needs to be removed when the logo locks on to the nav bar
   5. Add the left padding again, when the logo dissapears.
 
+//18-May-2015: Changing the About in Navbar to School of Integrative Biology
+
+
 */
 
 var ready;
